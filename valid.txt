@@ -1,0 +1,145 @@
+** Variable Declaration **
+
+int i;
+int a,b,c;
+char a,b,c;
+float f;
+double d;
+
+** Expression **
+
+a=b+c;
+b=3+4;
+c= c+ 3*(10-1)-2/4;
+
+** Structure Definition **
+
+typedef struct a{
+    int a=10;
+    char b=c;
+}A;
+
+struct node{
+    int id;
+    float f;
+}n1;
+
+struct node{
+    int id;
+    float f;
+};
+
+
+** while loop **
+
+while (2!=3)
+{
+    int a=0;
+    a=a+2;
+
+    while(a<=8)
+    {
+        int b=2;
+        b=b-a;
+    }
+}
+
+while(a<=8)
+{
+        int b=2;
+        b=b-a;
+}
+
+
+** do-while loop **
+
+do
+{
+    int i=0;
+    int a=2;
+    while(a<=8)
+    {
+        int b=2;
+        b=b-a;
+    }
+    i=i+1;
+    a=a+1
+}while(i!=20);
+
+
+do
+{
+    int i=0;
+    int a=2;
+    do
+    {
+        int b=2;
+        b=b-a;
+    }while(a<=8);
+    i=i+1;
+    a=a+1
+}while(i!=20);
+
+
+** if-else-if -else **
+
+if((2+3) == 5)
+{
+    int a=10;
+    b=0;
+}
+
+-----
+
+if((2+3) == 5)
+{
+    int a=10;
+    b=0;
+}
+else{
+    b=10;
+    int a=0;
+}
+
+-----
+
+if(a>b)
+{
+    int res=a; 
+}
+else if(c>b)
+{
+    int res=c;
+}
+else{
+    int res=b;
+}
+
+-------
+
+*** for loop ***
+
+for(int i=0;i<=10;i++)
+{
+    int a=0;
+    b=b+(a*a);
+}
+
+
+for(int i=0;i<=10;i++)
+{
+    for(int j=i;i>=0;j--)
+    {
+       int res=0;
+       res=i+j; 
+       if((res%2)==0)
+       {
+        res =0;
+       }
+       else
+       {
+        res=1;
+       }
+    }
+}
+

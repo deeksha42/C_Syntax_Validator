@@ -1,0 +1,5 @@
+if(a>b)
+{
+    int res=a; 
+}
+
